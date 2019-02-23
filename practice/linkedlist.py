@@ -17,7 +17,7 @@ def intersection(a, b):
 def lastIndexOf(self, val):
 	index = -1
 	current = self.head.next
-	for k in range(self.size - 1):
+	for k in range(self.size):
 		if current.element == val:
 			index = k
 		current = current.next
